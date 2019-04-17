@@ -47,4 +47,4 @@ The internal pull-up in the Raspberry PI handles the
 The switch is wired between `pin 39` and `pin 40` of the Raspberry PI. The ordering of the wires does not matter.
 
 <br>
-<img src="docs/rpi_switch.svg" width="50%">
+<img src="docs/rpi_switch.svg" width="45%"><img src="docs/rpi_pinout.jpg" width="45%">
