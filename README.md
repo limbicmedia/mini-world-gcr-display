@@ -7,7 +7,7 @@ The installation procedure for this project has been made as simple as possible.
 
 ```BASH
 sudo su
-export GCR_VERSION=v1.0.0 # the version you wish to install, must be 2.0.0 or greater 
+export GCR_VERSION=v1.0.0 # the version you wish to install, must be 1.0.0 or greater 
 wget -O - https://raw.githubusercontent.com/limbicmedia/mini-world-gcr-display/${GCR_VERSION}/setup.sh | bash
 ```
 
