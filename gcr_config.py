@@ -14,23 +14,23 @@ class Config():
 
     LIGHTING_SEQUENCE = [
         {
-            'dmx_levels': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+            'dmx_levels': [255, 0, 0, 0, 0, 0, 0, 0, 0, 0],
             'dmx_transition': 10,
             'end_time': 30
         },
         {
-            'dmx_levels': [255, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+            'dmx_levels': [255, 255, 0, 0, 0, 0, 0, 0, 0, 0],
             'dmx_transition': 10,
             'end_time': 60
         },
         {
-            'dmx_levels': [255, 255, 0, 0, 0, 0, 0, 0, 0, 0],
-            'dmx_transition': 10,
-            'end_time': 120
-        },
-        {
             'dmx_levels': [255, 0, 0, 0, 0, 0, 0, 0, 0, 0],
             'dmx_transition': 10,
-            'end_time': 150
+            'end_time': 90
+        },
+        {
+            'dmx_levels': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+            'dmx_transition': 10,
+            'end_time': 120
         }
     ]
